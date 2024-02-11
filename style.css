@@ -1,0 +1,98 @@
+html{
+    scroll-behavior: smooth;
+  }
+
+  nav{
+    font-family: 'IBM Plex Sans', sans-serif;
+    background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 102, 0) 100%);
+    font-family: 'Syne', sans-serif;
+  }
+  
+  .nav-link{
+    color: #fff;
+  }
+  
+  .nav-link:hover{
+    color: #CCFF00;
+  }
+
+  .btn-primary{
+    color: #fff;
+    background-color: #CCFF00;
+    border-color: #CCFF00;
+    border-radius: 5rem;
+    border-width: 2px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  
+  .btn-secondary{
+    color: #fff;
+    background-color: #CCFF00;
+    border-color: #CCFF00;
+    border-radius: 5rem;
+    border-width: 2px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin: 2rem;
+  }
+  
+  .btn:hover{
+    border-radius: 2rem;
+    border: 2px dashed #CCFF00;
+    background: #000;
+    color: #fff;
+  }
+
+  body{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 100;
+    color: #fff;
+    background-color: #000;
+  }
+
+  h1{
+    font-family: 'IBM Plex Mono', monospace;
+  }
+
+  h3{
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #CCFF00;
+  }
+
+  .dark{
+    background-color: #000;
+  }
+  
+  .light{
+    background-color: #fff;
+  }
+
+  
+
+
+
+
+
+  /* SM */
+@media(max-width:600px) {
+    .medal-carousel img{
+      max-width: 16rem;
+      margin: auto;
+    }
+  }
+  
+  
+  /* LG */
+  @media(min-width:992px) {
+    .nav-link{
+      color: #fff;
+      mix-blend-mode: difference;
+    }
+  
+    .container-space{
+      padding-top:7rem;
+      padding-bottom: 7rem;
+    }
+  }
+  
