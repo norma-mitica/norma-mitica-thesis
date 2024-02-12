@@ -17,31 +17,20 @@ html{
   }
 
   .btn-primary{
-    color: #fff;
+    color: #000;
     background-color: #CCFF00;
     border-color: #CCFF00;
-    border-radius: 5rem;
+    border-radius: 2rem;
     border-width: 2px;
-    padding-left: 2rem;
-    padding-right: 2rem;
-  }
-  
-  .btn-secondary{
-    color: #fff;
-    background-color: #CCFF00;
-    border-color: #CCFF00;
-    border-radius: 5rem;
-    border-width: 2px;
-    padding-left: 2rem;
-    padding-right: 2rem;
-    margin: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
   
   .btn:hover{
     border-radius: 2rem;
-    border: 2px dashed #CCFF00;
-    background: #000;
-    color: #fff;
+    border-color: #fff;
+    background: #fff;
+    color: #000;
   }
 
   body{
