@@ -2,12 +2,26 @@ html{
     scroll-behavior: smooth;
   }
 
-  nav{
-    font-family: 'IBM Plex Sans', sans-serif;
-    background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 102, 0) 100%);
-    font-family: 'Syne', sans-serif;
+  .logo{
+    font-family: 'IBM Plex Mono', monospace;
+    color: #fff;
+    font-size: 2rem;
+    text-decoration-line: none;
   }
-  
+
+  .logo:hover{
+    color: #CCFF00;
+  }
+
+  .logo a{
+    text-decoration: none;
+  }
+
+  nav{
+    background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 102, 0) 100%);
+    font-family: "Bebas Neue", sans-serif;
+  }
+
   .nav-link{
     color: #fff;
   }
@@ -33,6 +47,14 @@ html{
     color: #000;
   }
 
+  .nav-link{
+    color: #000;
+  }
+  
+  .nav-link:hover{
+    color: #CCFF00;
+  }
+
   body{
     font-family: 'IBM Plex Sans', sans-serif;
     font-weight: 100;
@@ -40,15 +62,48 @@ html{
     background-color: #000;
   }
 
-  h1{
+  .display{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 5rem;
+  }
+
+  .video-bg{
+    max-width: 100%;
+    height: auto;
+  }
+
+  .subject{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+  }
+
+  .container-space{
+  padding-top:2rem;
+  padding-bottom: 2rem;
+  }
+
+
+
+
+
+
+
+  .footer-color{
+    background: #fff;
+  }
+
+  .fot{
     font-family: 'IBM Plex Mono', monospace;
+    color: #000;
   }
 
-  h3{
-    font-family: 'IBM Plex Sans', sans-serif;
-    color: #CCFF00;
-  }
 
+
+
+
+/* COLOR BG */
   .dark{
     background-color: #000;
   }
@@ -57,7 +112,23 @@ html{
     background-color: #fff;
   }
 
+  .pink {
+    background-color: #FF5094;
+  }
   
+  .purple{
+    background-color: #9B64FF;
+  }
+
+
+
+
+
+
+
+
+
+
 
 
 

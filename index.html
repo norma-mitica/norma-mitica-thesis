@@ -14,26 +14,116 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=IBM+Plex+Sans:ital,wght@0,200;0,600;1,200&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
 
-  
     <link rel="stylesheet" href="style.css">
-    
+  
     <!-- FAVICON -->
-    <link rel="shortcut icon" href="image/favicon.png" />
+    <link rel="shortcut icon" href="images/favicon.png" />
   </head>
 
-  <body>
+
+
+<body>
+
+
+
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+
+    <div class="container">
+      <!-- logo -->
+      <div class="logo">
+        <a href="#splash">
+          <div class="logo">NORMA MITICA</div>
+        </a>
+      </div>
+
+      <!-- menu -->
+      <button class="navbar-toggler shadow-none border-0 text-light fs-1" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">MENÙ</button>
+    
+      <!-- sidebar -->
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <!-- sidebar header -->
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel"></h5>
+         <button type="button" class="btn-close btn-close-black shadow-none" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <!-- sidebar body -->
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 fs-1">
+            <li class="nav-item mx-2">
+             <a class="nav-link text-sm-dark text-md-dark text-lg-white" href="index.html">HOME</a>
+            </li>
+            <li class="nav-item mx-2">
+             <a class="nav-link text-sm-dark text-md-dark text-lg-white" href="pillole-index.html">PILLOLE</a>
+           </li>
+            <li class="nav-item mx-2">
+             <a class="nav-link text-sm-dark text-md-dark text-lg-white" href="edu-index.html">EDU</a>
+            </li>
+          </ul>
+        </div>
+     </div>
+    </div>
+  </nav>
     
 
-    <div class="row">
-      <div class="container">
-        <div>
-          <h1>La Norma Mitica</h1>
-          <h3>Progettare il futuro in un mondo plurale</h3>
+
+
+
+  <!-- splash page -->
+    <section id="splash">
+      <div>
+          <div class="d-flex flex-column w-100 vh-100 align-items-center justify-content-center">
+            <div class="display text-center lh-1">Qual è il ruolo del designer oggi?</div>
         </div>
       </div>
-      <div class="col-sm-4 col-xl-4 mx-auto">
-        <a class="btn btn-primary" href="https://aryel.io/?utm_term=aryel&utm_campaign=Brand%20Protection%20-%20IT&utm_source=adwords&utm_medium=ppc&hsa_acc=2061934942&hsa_cam=16147180782&hsa_grp=134774046202&hsa_ad=680795614072&hsa_src=g&hsa_tgt=kwd-750769964326&hsa_kw=aryel&hsa_mt=p&hsa_net=adwords&hsa_ver=3&gad_source=1&gclid=CjwKCAiA2pyuBhBKEiwApLaIO-YBsKnwk7swZmAbcK4ktOmE6H24Pth6YhDNA7vbgvJTx1p9SLS6aRoCCtMQAvD_BwE" role="button">CONTENUTI DIGITALI</a>
+      <!-- DESKTOP -->
+      <div class="container-lg subject">
+       <div class="row">
+         <div class="col-12 d-none d-sm-block height-100 d-flex flex-row justify-content-center align-items-center">
+           <video class="video-bg" autoplay muted loop>
+           <source src="video/bg-horizontal.mp4" type="video/mp4">
+           </video>
+         </div>
+       </div>
+     </div>
+     <!-- MOBILE -->
+      <div class="container-sm subject">
+         <div class="row">
+          <div class="col-12 d-block d-sm-none height-100 d-flex flex-row justify-content-center align-items-center">
+           <video class="video-bg" autoplay muted loop>
+            <source src="video/bg-vertical.mp4" type="video/mp4">
+          </video>
+         </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- BUTTON AR -->
+    <div class="container">
+      <div class="container-space container">
+        <div class="row">
+          <div class="d-flex justify-content-center">
+            <a href="https://app.aryel.io/9db8dec5-2d0f-43ce-b1ec-e35d70fb9e51/tesi-2223-norma-mitica"><button type="button" class="btn btn-primary">REALTÀ AUMENTATA</button></a>
+          </div>
+          <div class="container-space">
+            <p class="lead fs-6 text-center">Puoi accedere ai contenuti in realtà aumentata dal prodotto cartaceo Norma Mitica.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="container-space">
+        <div class="row">
+            <img src="images/mockup-cartaceo.png" class="img-fluid" alt="NORMA MITICA">
+        </div>
+        </div>
       </div>
     </div>
 
@@ -45,6 +135,29 @@
 
 
 
+
+
+
+    <!-- FOOTER -->
+    <nav class="navbar navbar-expand-lg footer-color">
+      <div class="fot">
+        <div class="container">
+          <div class="container-space">
+            <div class="row justify-content-center align-items-center">
+              <div>
+                <img src="images/logo-footer.png" class="img-fluid">
+              </div>
+              <div>
+                <p class="text-dark fs-6 text-center">Norma Mitica</p>
+                <p class="text-dark fs-6 text-center">Progettare il futuro in un mondo plurale</p>
+                <p class="text-dark fs-6 text-center">2024©</p>
+              </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
 
 
     
