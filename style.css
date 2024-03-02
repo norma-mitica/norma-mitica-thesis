@@ -31,6 +31,7 @@ nav {
 }
 
 .btn-primary {
+  font-family: 'IBM Plex Mono', monospace;
   color: #000;
   background-color: #CCFF00;
   border-color: #CCFF00;
@@ -97,6 +98,92 @@ body {
 }
 
 
+
+
+/* CAROUSEL */
+.grandezza-carousel {
+  width: 100vw;
+}
+
+.carousel {
+  display: grid;
+  grid-auto-flow: column;
+  scroll-behavior: auto;
+  gap: 1.2rem;
+  overflow-y: auto;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+}
+
+.carousel::-webkit-scrollbar {
+  display: none;
+}
+
+.card {
+  scroll-snap-align: start;
+  min-height: 300px;
+  min-width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+
+/* MARQUEE */
+.marquee-container {
+  overflow: hidden;
+}
+
+.marquee {
+  --offset: 20vw;
+  --move-initial: calc(-25% + var(--offset));
+  --move-final: calc(-50% + var(--offset));
+  color: #000;
+}
+
+.marquee__inner {
+  background-color: #fff;
+  width: max-content;
+  display: flex;
+  position: relative;
+  transform: translate3d(var(--move-initial), 0, 0);
+  animation: marquee 5s linear infinite;
+  animation-play-state: paused;
+}
+
+.marquee span {
+  font-size: 1rem;
+  padding: 0 1vw;
+  margin-bottom: 0.1rem;
+  margin-top: 0.25rem;
+}
+
+.marquee .marquee__inner {
+  animation-play-state: running;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translate3d(var(--move-initial), 0, 0);
+  }
+
+  100% {
+    transform: translate3d(var(--move-final), 0, 0);
+  }
+}
+
+
+.legenda {
+  width: 70%;
+}
+
+
+
+
+/* FOOTER */
 .footer-color {
   background: #fff;
 }
@@ -112,11 +199,11 @@ body {
 
 /* COLOR BG */
 .dark {
-  background-color: #000;
+  background: #000;
 }
 
 .light {
-  background-color: #fff;
+  background: #fff;
 }
 
 .pink {

@@ -29,60 +29,330 @@
 
 
 
-<body>
-  <div class="purple">
-    <!-- NAVBAR -->
-    <nav class="navbar navbar-expand-lg fixed-top">
+<body class="purple">
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg fixed-top">
 
-      <div class="container">
-        <!-- logo -->
-        <div class="logo">
-          <a href="index.html">
-            <div class="logo">NORMA MITICA</div>
-          </a>
+    <div class="container">
+      <!-- logo -->
+      <div class="logo">
+        <a href="index.html">
+          <div class="logo">NORMA MITICA</div>
+        </a>
+      </div>
+
+      <!-- menu -->
+      <button class="navbar-toggler shadow-none border-0 text-light fs-1" type="button" data-bs-toggle="offcanvas"
+        data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">MENÙ</button>
+
+      <!-- sidebar -->
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <!-- sidebar header -->
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel"></h5>
+          <button type="button" class="btn-close btn-close-black shadow-none" data-bs-dismiss="offcanvas"
+            aria-label="Close"></button>
         </div>
+        <!-- sidebar body -->
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 fs-1">
+            <li class="nav-item mx-2">
+              <a class="nav-link text-sm-dark text-md-dark text-lg-white" href="index.html">HOME</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link text-sm-dark text-md-dark text-lg-white" href="pillole-index.html">PILLOLE</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link text-sm-dark text-md-dark text-lg-white" href="edu-index.html">EDU</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
 
-        <!-- menu -->
-        <button class="navbar-toggler shadow-none border-0 text-light fs-1" type="button" data-bs-toggle="offcanvas"
-          data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">MENÙ</button>
 
-        <!-- sidebar -->
-        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-          <!-- sidebar header -->
-          <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="offcanvasNavbarLabel"></h5>
-            <button type="button" class="btn-close btn-close-black shadow-none" data-bs-dismiss="offcanvas"
-              aria-label="Close"></button>
-          </div>
-          <!-- sidebar body -->
-          <div class="offcanvas-body">
-            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 fs-1">
-              <li class="nav-item mx-2">
-                <a class="nav-link text-sm-dark text-md-dark text-lg-white" href="index.html">HOME</a>
-              </li>
-              <li class="nav-item mx-2">
-                <a class="nav-link text-sm-dark text-md-dark text-lg-white" href="pillole-index.html">PILLOLE</a>
-              </li>
-              <li class="nav-item mx-2">
-                <a class="nav-link text-sm-dark text-md-dark text-lg-white" href="edu-index.html">EDU</a>
-              </li>
-            </ul>
+
+  <!-- SPLASH PAGE -->
+  <section id="splash">
+    <div class="container">
+      <div class="d-flex flex-column w-100 vh-100 align-items-center splash-space pt-5">
+        <div class="display text-center pt-5 text-black">sezione docente</div>
+        <div class="container">
+          <div class="row">
+            <p class="lead fs-6 text-center">Nel Programma Didattico troverai obiettivi, contenuti e struttura della
+              disciplina</p>
+            <a href="https://drive.google.com/file/d/1zfJM9MzpYQ6h9mn23C316VRZu6j3krGG/view?usp=sharing">
+              <img class="img-fluid mb-5" src="/images/programma.png">
+            </a>
           </div>
         </div>
       </div>
-    </nav>
+    </div>
+  </section>
 
 
+  <section class="light">
+    <div class="container">
+      <div class="row container-space justify-content-center">
+        <p class="lead fs-6 text-center text-black">Scarica le schede delle lezioni per ottenere informazioni
+          dettagliate riguardo le ore, gli obiettivi e i suggerimenti per esercitazioni, talk e dibattiti</p>
+        <img class="img-fluid legenda mb-5" src="/images/legenda.png">
+      </div>
+    </div>
 
 
+    <!-- LIST -->
+    <div class="row container-space">
+      <div class="display-valori text-center text-black">lezioni</div>
+    </div>
 
-    <!-- splash page -->
-    <section id="splash">
-      <div>
-        <div class="d-flex flex-column w-100 vh-100 align-items-center justify-content-center">
-          <div class="display text-center lh-1">sezione
-            docente</div>
+    <section class="marquee-container">
+      <div class="container border border-bottom-0 border-dark">
+        <div class="marquee">
+          <div class="marquee__inner py-3" aria-hidden="true">
+            <span class="fw-bold">01 / Design non occidentalizzato</span>
+            <span><img class="img-fluid" src="images/freccia-viola.png" alt=""></span>
+            <span>/ Fuori dal flusso della storia</span>
+            <span><img class="img-fluid" src="images/icona-esercizio.png" alt=""></span>
+            <span class="fw-bold">01 / Design non occidentalizzato</span>
+            <span><img class="img-fluid" src="images/freccia-viola.png" alt=""></span>
+            <span>/ Fuori dal flusso della storia</span>
+            <span><img class="img-fluid" src="images/icona-esercizio.png" alt=""></span>
+            <span class="fw-bold">01 / Design non occidentalizzato</span>
+            <span><img class="img-fluid" src="images/freccia-viola.png" alt=""></span>
+            <span>/ Fuori dal flusso della storia</span>
+            <span><img class="img-fluid" src="images/icona-esercizio.png" alt=""></span>
+            <span class="fw-bold">01 / Design non occidentalizzato</span>
+            <span><img class="img-fluid" src="images/freccia-viola.png" alt=""></span>
+            <span>/ Fuori dal flusso della storia</span>
+            <span><img class="img-fluid" src="images/icona-esercizio.png" alt=""></span>
+          </div>
         </div>
+      </div>
+
+      <div class="container border border-bottom-0 border-dark">
+        <div class="marquee">
+          <div class="marquee__inner py-3" aria-hidden="true">
+            <span class="fw-bold">02 / Linguaggio</span>
+            <span><img class="img-fluid" src="images/freccia-viola.png" alt=""></span>
+            <span>/ Non si può più dire niente</span>
+            <span><img class="img-fluid" src="images/icona-talk.png" alt=""></span>
+            <span class="fw-bold">02 / Linguaggio</span>
+            <span><img class="img-fluid" src="images/freccia-viola.png" alt=""></span>
+            <span>/ Non si può più dire niente</span>
+            <span><img class="img-fluid" src="images/icona-talk.png" alt=""></span>
+            <span class="fw-bold">02 / Linguaggio</span>
+            <span><img class="img-fluid" src="images/freccia-viola.png" alt=""></span>
+            <span>/ Non si può più dire niente</span>
+            <span><img class="img-fluid" src="images/icona-talk.png" alt=""></span>
+            <span class="fw-bold">02 / Linguaggio</span>
+            <span><img class="img-fluid" src="images/freccia-viola.png" alt=""></span>
+            <span>/ Non si può più dire nientea</span>
+            <span><img class="img-fluid" src="images/icona-talk.png" alt=""></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="container border border-bottom-0 border-dark">
+        <div class="marquee">
+          <div class="marquee__inner py-3" aria-hidden="true">
+            <span class="fw-bold">03 / Tipografia</span>
+            <span><img class="img-fluid" src="images/freccia-viola.png" alt=""></span>
+            <span>/ Un segno al linguaggio</span>
+            <span><img class="img-fluid" src="images/icona-esercizio.png" alt=""></span>
+            <span class="fw-bold">03 / Tipografia</span>
+            <span><img class="img-fluid" src="images/freccia-viola.png" alt=""></span>
+            <span>/ Un segno al linguaggio</span>
+            <span><img class="img-fluid" src="images/icona-esercizio.png" alt=""></span>
+            <span class="fw-bold">03 / Tipografia</span>
+            <span><img class="img-fluid" src="images/freccia-viola.png" alt=""></span>
+            <span>/ Un segno al linguaggio</span>
+            <span><img class="img-fluid" src="images/icona-esercizio.png" alt=""></span>
+            <span class="fw-bold">03 / Tipografia</span>
+            <span><img class="img-fluid" src="images/freccia-viola.png" alt=""></span>
+            <span>/ Un segno al linguaggio</span>
+            <span><img class="img-fluid" src="images/icona-esercizio.png" alt=""></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="container border border-bottom-0 border-dark">
+        <div class="marquee">
+          <div class="marquee__inner py-3" aria-hidden="true">
+            <span class="fw-bold">04 / Intersezionalità e Razzismo Sistemico</span>
+            <span><img class="img-fluid" src="images/freccia-viola.png" alt=""></span>
+            <span>/ Tribal Vibes</span>
+            <span><img class="img-fluid" src="images/icona-talk.png" alt=""></span>
+            <span class="fw-bold">04 / Intersezionalità e Razzismo Sistemico</span>
+            <span><img class="img-fluid" src="images/freccia-viola.png" alt=""></span>
+            <span>/ Tribal Vibes</span>
+            <span><img class="img-fluid" src="images/icona-talk.png" alt=""></span>
+            <span class="fw-bold">04 / Intersezionalità e Razzismo Sistemico</span>
+            <span><img class="img-fluid" src="images/freccia-viola.png" alt=""></span>
+            <span>/ Tribal Vibes</span>
+            <span><img class="img-fluid" src="images/icona-talk.png" alt=""></span>
+            <span class="fw-bold">04 / Intersezionalità e Razzismo Sistemico</span>
+            <span><img class="img-fluid" src="images/freccia-viola.png" alt=""></span>
+            <span>/ Tribal Vibes</span>
+            <span><img class="img-fluid" src="images/icona-talk.png" alt=""></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="container border border-bottom-0 border-dark">
+        <div class="marquee">
+          <div class="marquee__inner py-3" aria-hidden="true">
+            <span class="fw-bold">05 / Femminismo</span>
+            <span><img class="img-fluid" src="images/freccia-viola.png" alt=""></span>
+            <span>/ Uso la carta donna!</span>
+            <span><img class="img-fluid" src="images/icona-dibattito.png" alt=""></span>
+            <span class="fw-bold">05 / Femminismo</span>
+            <span><img class="img-fluid" src="images/freccia-viola.png" alt=""></span>
+            <span>/ Uso la carta donna!</span>
+            <span><img class="img-fluid" src="images/icona-dibattito.png" alt=""></span>
+            <span class="fw-bold">05 / Femminismo</span>
+            <span><img class="img-fluid" src="images/freccia-viola.png" alt=""></span>
+            <span>/ Uso la carta donna!</span>
+            <span><img class="img-fluid" src="images/icona-dibattito.png" alt=""></span>
+            <span class="fw-bold">05 / Femminismo</span>
+            <span><img class="img-fluid" src="images/freccia-viola.png" alt=""></span>
+            <span>/ Uso la carta donna!</span>
+            <span><img class="img-fluid" src="images/icona-dibattito.png" alt=""></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="container border border-bottom-0 border-dark">
+        <div class="marquee">
+          <div class="marquee__inner py-3" aria-hidden="true">
+            <span class="fw-bold">06 / Abilismo</span>
+            <span><img class="img-fluid" src="images/freccia-viola.png" alt=""></span>
+            <span>/ Il design è 4 all?</span>
+            <span><img class="img-fluid" src="images/icona-esercizio.png" alt=""></span>
+            <span class="fw-bold">06 / Abilismo</span>
+            <span><img class="img-fluid" src="images/freccia-viola.png" alt=""></span>
+            <span>/ Il design è 4 all?</span>
+            <span><img class="img-fluid" src="images/icona-esercizio.png" alt=""></span>
+            <span class="fw-bold">06 / Abilismo</span>
+            <span><img class="img-fluid" src="images/freccia-viola.png" alt=""></span>
+            <span>/ Il design è 4 all?</span>
+            <span><img class="img-fluid" src="images/icona-esercizio.png" alt=""></span>
+            <span class="fw-bold">06 / Abilismo</span>
+            <span><img class="img-fluid" src="images/freccia-viola.png" alt=""></span>
+            <span>/ Il design è 4 all?</span>
+            <span><img class="img-fluid" src="images/icona-esercizio.png" alt=""></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="container border border-bottom-0 border-dark">
+        <div class="marquee">
+          <div class="marquee__inner py-3" aria-hidden="true">
+            <span class="fw-bold">07 / Identità di genere</span>
+            <span><img class="img-fluid" src="images/freccia-viola.png" alt=""></span>
+            <span>/ Blu per i maschi e rosa per le femmine</span>
+            <span><img class="img-fluid" src="images/icona-esercizio.png" alt=""></span>
+            <span class="fw-bold">07 / Identità di genere</span>
+            <span><img class="img-fluid" src="images/freccia-viola.png" alt=""></span>
+            <span>/ Blu per i maschi e rosa per le femmine</span>
+            <span><img class="img-fluid" src="images/icona-esercizio.png" alt=""></span>
+            <span class="fw-bold">07 / Identità di genere</span>
+            <span><img class="img-fluid" src="images/freccia-viola.png" alt=""></span>
+            <span>/ Blu per i maschi e rosa per le femmine</span>
+            <span><img class="img-fluid" src="images/icona-esercizio.png" alt=""></span>
+            <span class="fw-bold">07 / Identità di genere</span>
+            <span><img class="img-fluid" src="images/freccia-viola.png" alt=""></span>
+            <span>/ Blu per i maschi e rosa per le femmine</span>
+            <span><img class="img-fluid" src="images/icona-esercizio.png" alt=""></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="container border border-bottom-0 border-dark">
+        <div class="marquee">
+          <div class="marquee__inner py-3" aria-hidden="true">
+            <span class="fw-bold">08 / LGBTQIA+</span>
+            <span><img class="img-fluid" src="images/freccia-viola.png" alt=""></span>
+            <span>/ Il design come pratica queer</span>
+            <span><img class="img-fluid" src="images/icona-dibattito.png" alt=""></span>
+            <span class="fw-bold">08 / LGBTQIA+</span>
+            <span><img class="img-fluid" src="images/freccia-viola.png" alt=""></span>
+            <span>/ Il design come pratica queer</span>
+            <span><img class="img-fluid" src="images/icona-dibattito.png" alt=""></span>
+            <span class="fw-bold">08 / LGBTQIA+</span>
+            <span><img class="img-fluid" src="images/freccia-viola.png" alt=""></span>
+            <span>/ Il design come pratica queer</span>
+            <span><img class="img-fluid" src="images/icona-dibattito.png" alt=""></span>
+            <span class="fw-bold">08 / LGBTQIA+</span>
+            <span><img class="img-fluid" src="images/freccia-viola.png" alt=""></span>
+            <span>/ Il design come pratica queer</span>
+            <span><img class="img-fluid" src="images/icona-dibattito.png" alt=""></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="container border border-bottom-0 border-dark">
+        <div class="marquee">
+          <div class="marquee__inner py-3" aria-hidden="true">
+            <span class="fw-bold">09 / Identificazione del sé</span>
+            <span><img class="img-fluid" src="images/freccia-viola.png" alt=""></span>
+            <span>/ Il personale è politico</span>
+            <span><img class="img-fluid" src="images/icona-esercizio.png" alt=""></span>
+            <span class="fw-bold">09 / Identificazione del sé</span>
+            <span><img class="img-fluid" src="images/freccia-viola.png" alt=""></span>
+            <span>/ Il personale è politico</span>
+            <span><img class="img-fluid" src="images/icona-esercizio.png" alt=""></span>
+            <span class="fw-bold">09 / Identificazione del sé</span>
+            <span><img class="img-fluid" src="images/freccia-viola.png" alt=""></span>
+            <span>/ Il personale è politico</span>
+            <span><img class="img-fluid" src="images/icona-esercizio.png" alt=""></span>
+            <span class="fw-bold">09 / Identificazione del sé</span>
+            <span><img class="img-fluid" src="images/freccia-viola.png" alt=""></span>
+            <span>/ Il personale è politico</span>
+            <span><img class="img-fluid" src="images/icona-esercizio.png" alt=""></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="container border border-bottom-0 border-dark">
+        <div class="marquee">
+          <div class="marquee__inner py-3" aria-hidden="true">
+            <span class="fw-bold">10 / Futuro</span>
+            <span><img class="img-fluid" src="images/freccia-viola.png" alt=""></span>
+            <span>/ Attivismo nel mondo del lavoro</span>
+            <span><img class="img-fluid" src="images/icona-esercizio.png" alt=""></span>
+            <span class="fw-bold">10 / Futuro</span>
+            <span><img class="img-fluid" src="images/freccia-viola.png" alt=""></span>
+            <span>/ Attivismo nel mondo del lavoro</span>
+            <span><img class="img-fluid" src="images/icona-esercizio.png" alt=""></span>
+            <span class="fw-bold">10 / Futuro</span>
+            <span><img class="img-fluid" src="images/freccia-viola.png" alt=""></span>
+            <span>/ Attivismo nel mondo del lavoro</span>
+            <span><img class="img-fluid" src="images/icona-esercizio.png" alt=""></span>
+            <span class="fw-bold">10 / Futuro</span>
+            <span><img class="img-fluid" src="images/freccia-viola.png" alt=""></span>
+            <span>/ Attivismo nel mondo del lavoro</span>
+            <span><img class="img-fluid" src="images/icona-esercizio.png" alt=""></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="purple">
+      <div class="container container-space">
+        <div class="row container-space">
+          <p class="lead fs-6 text-center">Vuoi un feedback dai tuoi studenti?
+            Scarica il modello di questionario da proporre ai tuoi studenti a fine anno
+          </p>
+        </div>
+        <div class="row">
+          <div class="col d-flex justify-content-center mb-3">
+            <a href="#"><button type="button" class="btn btn-primary">SCARICA</button></a>
+          </div>
+        </div>
+      </div>
     </section>
 
 
@@ -96,33 +366,26 @@
 
 
 
-
-
-
-  </div>
-
-
-
-  <!-- FOOTER -->
-  <section class="footer-color">
-    <div class="fot">
-      <div class="container-fluid container-space">
-        <div class="row justify-content-center align-items-center text-center">
-          <div>
-            <img class="img-fluid mb-2" src="images/logo-footer.png">
-          </div>
-          <div>
-            <p class="text-dark fs-6 fw-bold text-center mb-2">NORMA MITICA</p>
-            <p class="text-dark fs-6 text-center mb-2">Progettare il futuro in un mondo plurale</p>
-            <p class="text-dark fs-6 text-center mb-2">2024©</p>
+    <!-- FOOTER -->
+    <section class="footer-color">
+      <div class="fot">
+        <div class="container-fluid container-space">
+          <div class="row justify-content-center align-items-center text-center">
+            <div>
+              <img class="img-fluid mb-2" src="images/logo-footer.png">
+            </div>
+            <div>
+              <p class="text-dark fs-6 fw-bold text-center mb-2">NORMA MITICA</p>
+              <p class="text-dark fs-6 text-center mb-2">Progettare il futuro in un mondo plurale</p>
+              <p class="text-dark fs-6 text-center mb-2">2024©</p>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-    </div>
-  </section>
+      </div>
+    </section>
 
-  <script src="vendor/bootstrap-5.2.3-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="vendor/bootstrap-5.2.3-dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
