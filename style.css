@@ -2,15 +2,24 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+p {
+  font-size: 1rem;
+}
+
 .logo {
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: "IBM Plex Mono", monospace;
   color: #fff;
   font-size: 2rem;
   text-decoration-line: none;
 }
 
 .logo:hover {
-  color: #CCFF00;
+  color: #ccff00;
 }
 
 .logo a {
@@ -27,14 +36,14 @@ nav {
 }
 
 .nav-link:hover {
-  color: #CCFF00;
+  color: #ccff00;
 }
 
 .btn-primary {
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: "IBM Plex Mono", monospace;
   color: #000;
-  background-color: #CCFF00;
-  border-color: #CCFF00;
+  background-color: #ccff00;
+  border-color: #ccff00;
   border-radius: 2rem;
   border-width: 2px;
   padding-left: 1rem;
@@ -53,11 +62,11 @@ nav {
 }
 
 .nav-link:hover {
-  color: #CCFF00;
+  color: #ccff00;
 }
 
 body {
-  font-family: 'IBM Plex Sans', sans-serif;
+  font-family: "IBM Plex Sans", sans-serif;
   font-weight: 100;
   color: #fff;
   background-color: #000;
@@ -97,9 +106,6 @@ body {
   justify-content: space-around;
 }
 
-
-
-
 /* CAROUSEL */
 .grandezza-carousel {
   width: 100vw;
@@ -129,12 +135,11 @@ body {
   justify-content: center;
 }
 
-
-
-
 /* MARQUEE */
+
 .marquee-container {
-  overflow: hidden;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 .marquee {
@@ -175,13 +180,13 @@ body {
   }
 }
 
+.programma {
+  width: 100%;
+}
 
 .legenda {
   width: 70%;
 }
-
-
-
 
 /* FOOTER */
 .footer-color {
@@ -189,13 +194,9 @@ body {
 }
 
 .fot {
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: "IBM Plex Mono", monospace;
   color: #000;
 }
-
-
-
-
 
 /* COLOR BG */
 .dark {
@@ -207,38 +208,45 @@ body {
 }
 
 .pink {
-  background: #FF5094;
+  background: #ff5094;
 }
 
 .purple {
-  background: #9B64FF;
+  background: #9b64ff;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* SM */
-@media(max-width:600px) {
+@media (max-width: 600px) {
   .medal-carousel img {
     max-width: 16rem;
     margin: auto;
   }
 }
 
+/* md */
+@media (min-width: 768px) {
+  .marquee span {
+    font-size: 2rem;
+    padding: 0 1vw;
+    margin-bottom: 0.1rem;
+    margin-top: 0.25rem;
+  }
+
+  p {
+    font-size: 2rem;
+  }
+
+  .legenda {
+    width: 50%;
+  }
+
+  .programma {
+    width: 50%;
+  }
+}
 
 /* LG */
-@media(min-width:992px) {
+@media (min-width: 992px) {
   .nav-link {
     color: #fff;
     mix-blend-mode: difference;
